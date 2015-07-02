@@ -1,6 +1,6 @@
 # tarena summer camp 2015
 
-短期培训写的app
+短期培训用swift写的app
 
 1. 个税计算器－TaxCalculator
   - 函数作用域
