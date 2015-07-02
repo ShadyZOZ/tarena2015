@@ -152,7 +152,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
         
         // signatural
         var sign = UILabel(frame: CGRectMake(0, height - 70, width, 70))
-        sign.text = "Tax Calculater by Shady.\nSource Code: http://www.github/com/shadyzoz"
+        sign.text = "Tax Calculater by Shady.\nSource Code: https://github.com/shadyzoz/tarena2015"
         sign.font = UIFont.systemFontOfSize(14)
         sign.textAlignment = NSTextAlignment.Center
         sign.numberOfLines = 2
