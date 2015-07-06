@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>Better In Time(Remix)</string>
+		<key>filename</key>
+		<string>Better In Time(Remix).mp3</string>
+		<key>lrcname</key>
+		<string>120125029.lrc</string>
+		<key>singer</key>
+		<string>Eminem</string>
+		<key>singerIcon</key>
+		<string></string>
+		<key>icon</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Lose Yourself</string>
+		<key>filename</key>
+		<string>Lose Yourself.mp3</string>
+		<key>lrcname</key>
+		<string>12309111.lrc</string>
+		<key>singer</key>
+		<string>Eminem</string>
+		<key>singerIcon</key>
+		<string>bb_icon.jpg</string>
+		<key>icon</key>
+		<string>bb.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>When I'm Gone</string>
+		<key>filename</key>
+		<string>When I'm Gone.mp3</string>
+		<key>lrcname</key>
+		<string>When I'm Gone.lrc</string>
+		<key>singer</key>
+		<string>Eminem</string>
+		<key>singerIcon</key>
+		<string></string>
+		<key>icon</key>
+		<string></string>
+	</dict>
+</array>
+</plist>

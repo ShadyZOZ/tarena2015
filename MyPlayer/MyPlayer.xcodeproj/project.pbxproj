@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA21A8071B49538A00D5D47D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA21A8061B49538A00D5D47D /* AppDelegate.swift */; };
+		EA21A8091B49538A00D5D47D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA21A8081B49538A00D5D47D /* ViewController.swift */; };
+		EA21A80E1B49538A00D5D47D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA21A80D1B49538A00D5D47D /* Images.xcassets */; };
+		EA21A8111B49538A00D5D47D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA21A80F1B49538A00D5D47D /* LaunchScreen.xib */; };
+		EA21A81D1B49538A00D5D47D /* MyPlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA21A81C1B49538A00D5D47D /* MyPlayerTests.swift */; };
+		EA52B5DB1B49687D00142F32 /* Better In Time(Remix).lrc in Resources */ = {isa = PBXBuildFile; fileRef = EA52B5D31B49687D00142F32 /* Better In Time(Remix).lrc */; };
+		EA52B5DC1B49687D00142F32 /* Lose Yourself.lrc in Resources */ = {isa = PBXBuildFile; fileRef = EA52B5D41B49687D00142F32 /* Lose Yourself.lrc */; };
+		EA52B5DD1B49687D00142F32 /* When I'm Gone.lrc in Resources */ = {isa = PBXBuildFile; fileRef = EA52B5D51B49687D00142F32 /* When I'm Gone.lrc */; };
+		EA52B5DE1B49687D00142F32 /* Musics.plist in Resources */ = {isa = PBXBuildFile; fileRef = EA52B5D61B49687D00142F32 /* Musics.plist */; };
+		EA52B5DF1B49687D00142F32 /* Better In Time(Remix).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EA52B5D81B49687D00142F32 /* Better In Time(Remix).mp3 */; };
+		EA52B5E01B49687D00142F32 /* Lose Yourself.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EA52B5D91B49687D00142F32 /* Lose Yourself.mp3 */; };
+		EA52B5E11B49687D00142F32 /* When I'm Gone.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EA52B5DA1B49687D00142F32 /* When I'm Gone.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA21A8171B49538A00D5D47D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA21A7F91B49538A00D5D47D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA21A8001B49538A00D5D47D;
+			remoteInfo = MyPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EA21A8011B49538A00D5D47D /* MyPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA21A8051B49538A00D5D47D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA21A8061B49538A00D5D47D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EA21A8081B49538A00D5D47D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EA21A80D1B49538A00D5D47D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EA21A8101B49538A00D5D47D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EA21A8161B49538A00D5D47D /* MyPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA21A81B1B49538A00D5D47D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA21A81C1B49538A00D5D47D /* MyPlayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPlayerTests.swift; sourceTree = "<group>"; };
+		EA52B5D31B49687D00142F32 /* Better In Time(Remix).lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Better In Time(Remix).lrc"; sourceTree = "<group>"; };
+		EA52B5D41B49687D00142F32 /* Lose Yourself.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Lose Yourself.lrc"; sourceTree = "<group>"; };
+		EA52B5D51B49687D00142F32 /* When I'm Gone.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "When I'm Gone.lrc"; sourceTree = "<group>"; };
+		EA52B5D61B49687D00142F32 /* Musics.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Musics.plist; sourceTree = "<group>"; };
+		EA52B5D81B49687D00142F32 /* Better In Time(Remix).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Better In Time(Remix).mp3"; sourceTree = "<group>"; };
+		EA52B5D91B49687D00142F32 /* Lose Yourself.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Lose Yourself.mp3"; sourceTree = "<group>"; };
+		EA52B5DA1B49687D00142F32 /* When I'm Gone.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "When I'm Gone.mp3"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA21A7FE1B49538A00D5D47D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA21A8131B49538A00D5D47D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA21A7F81B49538A00D5D47D = {
+			isa = PBXGroup;
+			children = (
+				EA21A8031B49538A00D5D47D /* MyPlayer */,
+				EA21A8191B49538A00D5D47D /* MyPlayerTests */,
+				EA21A8021B49538A00D5D47D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA21A8021B49538A00D5D47D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA21A8011B49538A00D5D47D /* MyPlayer.app */,
+				EA21A8161B49538A00D5D47D /* MyPlayerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA21A8031B49538A00D5D47D /* MyPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				EA21A8061B49538A00D5D47D /* AppDelegate.swift */,
+				EA21A8081B49538A00D5D47D /* ViewController.swift */,
+				EA21A80D1B49538A00D5D47D /* Images.xcassets */,
+				EA21A80F1B49538A00D5D47D /* LaunchScreen.xib */,
+				EA21A8041B49538A00D5D47D /* Supporting Files */,
+			);
+			path = MyPlayer;
+			sourceTree = "<group>";
+		};
+		EA21A8041B49538A00D5D47D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA52B5D11B49687D00142F32 /* Resources */,
+				EA21A8051B49538A00D5D47D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EA21A8191B49538A00D5D47D /* MyPlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				EA21A81C1B49538A00D5D47D /* MyPlayerTests.swift */,
+				EA21A81A1B49538A00D5D47D /* Supporting Files */,
+			);
+			path = MyPlayerTests;
+			sourceTree = "<group>";
+		};
+		EA21A81A1B49538A00D5D47D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA21A81B1B49538A00D5D47D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EA52B5D11B49687D00142F32 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EA52B5D21B49687D00142F32 /* lyric */,
+				EA52B5D61B49687D00142F32 /* Musics.plist */,
+				EA52B5D71B49687D00142F32 /* song */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		EA52B5D21B49687D00142F32 /* lyric */ = {
+			isa = PBXGroup;
+			children = (
+				EA52B5D31B49687D00142F32 /* Better In Time(Remix).lrc */,
+				EA52B5D41B49687D00142F32 /* Lose Yourself.lrc */,
+				EA52B5D51B49687D00142F32 /* When I'm Gone.lrc */,
+			);
+			path = lyric;
+			sourceTree = "<group>";
+		};
+		EA52B5D71B49687D00142F32 /* song */ = {
+			isa = PBXGroup;
+			children = (
+				EA52B5D81B49687D00142F32 /* Better In Time(Remix).mp3 */,
+				EA52B5D91B49687D00142F32 /* Lose Yourself.mp3 */,
+				EA52B5DA1B49687D00142F32 /* When I'm Gone.mp3 */,
+			);
+			path = song;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA21A8001B49538A00D5D47D /* MyPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA21A8201B49538A00D5D47D /* Build configuration list for PBXNativeTarget "MyPlayer" */;
+			buildPhases = (
+				EA21A7FD1B49538A00D5D47D /* Sources */,
+				EA21A7FE1B49538A00D5D47D /* Frameworks */,
+				EA21A7FF1B49538A00D5D47D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyPlayer;
+			productName = MyPlayer;
+			productReference = EA21A8011B49538A00D5D47D /* MyPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA21A8151B49538A00D5D47D /* MyPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA21A8231B49538A00D5D47D /* Build configuration list for PBXNativeTarget "MyPlayerTests" */;
+			buildPhases = (
+				EA21A8121B49538A00D5D47D /* Sources */,
+				EA21A8131B49538A00D5D47D /* Frameworks */,
+				EA21A8141B49538A00D5D47D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA21A8181B49538A00D5D47D /* PBXTargetDependency */,
+			);
+			name = MyPlayerTests;
+			productName = MyPlayerTests;
+			productReference = EA21A8161B49538A00D5D47D /* MyPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA21A7F91B49538A00D5D47D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = shadyzoz;
+				TargetAttributes = {
+					EA21A8001B49538A00D5D47D = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					EA21A8151B49538A00D5D47D = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = EA21A8001B49538A00D5D47D;
+					};
+				};
+			};
+			buildConfigurationList = EA21A7FC1B49538A00D5D47D /* Build configuration list for PBXProject "MyPlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA21A7F81B49538A00D5D47D;
+			productRefGroup = EA21A8021B49538A00D5D47D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA21A8001B49538A00D5D47D /* MyPlayer */,
+				EA21A8151B49538A00D5D47D /* MyPlayerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA21A7FF1B49538A00D5D47D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA52B5DC1B49687D00142F32 /* Lose Yourself.lrc in Resources */,
+				EA21A8111B49538A00D5D47D /* LaunchScreen.xib in Resources */,
+				EA52B5DF1B49687D00142F32 /* Better In Time(Remix).mp3 in Resources */,
+				EA52B5E01B49687D00142F32 /* Lose Yourself.mp3 in Resources */,
+				EA52B5DD1B49687D00142F32 /* When I'm Gone.lrc in Resources */,
+				EA52B5E11B49687D00142F32 /* When I'm Gone.mp3 in Resources */,
+				EA52B5DB1B49687D00142F32 /* Better In Time(Remix).lrc in Resources */,
+				EA52B5DE1B49687D00142F32 /* Musics.plist in Resources */,
+				EA21A80E1B49538A00D5D47D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA21A8141B49538A00D5D47D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA21A7FD1B49538A00D5D47D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA21A8091B49538A00D5D47D /* ViewController.swift in Sources */,
+				EA21A8071B49538A00D5D47D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA21A8121B49538A00D5D47D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA21A81D1B49538A00D5D47D /* MyPlayerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA21A8181B49538A00D5D47D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA21A8001B49538A00D5D47D /* MyPlayer */;
+			targetProxy = EA21A8171B49538A00D5D47D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EA21A80F1B49538A00D5D47D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA21A8101B49538A00D5D47D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA21A81E1B49538A00D5D47D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EA21A81F1B49538A00D5D47D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA21A8211B49538A00D5D47D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MyPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EA21A8221B49538A00D5D47D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MyPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EA21A8241B49538A00D5D47D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MyPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyPlayer.app/MyPlayer";
+			};
+			name = Debug;
+		};
+		EA21A8251B49538A00D5D47D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MyPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyPlayer.app/MyPlayer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA21A7FC1B49538A00D5D47D /* Build configuration list for PBXProject "MyPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA21A81E1B49538A00D5D47D /* Debug */,
+				EA21A81F1B49538A00D5D47D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA21A8201B49538A00D5D47D /* Build configuration list for PBXNativeTarget "MyPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA21A8211B49538A00D5D47D /* Debug */,
+				EA21A8221B49538A00D5D47D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA21A8231B49538A00D5D47D /* Build configuration list for PBXNativeTarget "MyPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA21A8241B49538A00D5D47D /* Debug */,
+				EA21A8251B49538A00D5D47D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA21A7F91B49538A00D5D47D /* Project object */;
+}
