@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>CB3C8EFE-1554-42C2-A3A0-C63647EFA890</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Weather</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>5BB3F2D07F90D8FE9B764412C4FCE44452318354</key>
+		<string>https://github.com/ShadyZOZ/tarena2015.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Weather/Weather.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>5BB3F2D07F90D8FE9B764412C4FCE44452318354</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/ShadyZOZ/tarena2015.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>5BB3F2D07F90D8FE9B764412C4FCE44452318354</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>5BB3F2D07F90D8FE9B764412C4FCE44452318354</string>
+			<key>IDESourceControlWCCName</key>
+			<string>tarena2015</string>
+		</dict>
+	</array>
+</dict>
+</plist>
