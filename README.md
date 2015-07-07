@@ -10,6 +10,15 @@
   - 键盘的隐藏/显示
   - 字符串/数字转换
 
+2. 简易音乐播放器－MyPlayer
+  - AVFoundation
+  - UITableView
+  - plist中获取数据
+
+3. 基于定位的天气预报－Weather
+  - coreLocation
+  - NSURLRequest
+  
 ---
 
 study notes：http://www.shadyzoz.com/tags/Swift/
