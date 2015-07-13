@@ -38,7 +38,6 @@ class WeatherViewController: UIViewController, CLLocationManagerDelegate {
     
     func locationManager(manager: CLLocationManager!, didUpdateLocations locations: [AnyObject]!) {
         var location: CLLocation = locations[locations.count - 1] as! CLLocation
-        
         if location.horizontalAccuracy > 0
         {
             updateWeather("\(location.coordinate.longitude),\(location.coordinate.latitude)")
@@ -67,17 +66,25 @@ class WeatherViewController: UIViewController, CLLocationManagerDelegate {
             {
                 dispatch_async(dispatch_get_main_queue(), {
                     let weatherModel: NSDictionary = NSJSONSerialization.JSONObjectWithData(data, options: NSJSONReadingOptions.MutableLeaves, error: nil) as! NSDictionary
-                    let results: NSArray = weatherModel["results"] as! NSArray
-                    self.currentCityLabel.text = (results[0]["currentCity"] as! String)
-                    let weatherData: NSArray = results[0]["weather_data"] as! NSArray
-                    println(weatherData[0])
-                    let weather = weatherData[0]["weather"] as! String
-                    let temperature = weatherData[0]["temperature"] as! String
-                    let wind = weatherData[0]["wind"] as! String
-                    self.weatherImageView.image = UIImage(named: weather) == nil ? UIImage(named: "duono"):UIImage(named: weather)
-                    self.weatherLabel.text = "天气： \(weather)"
-                    self.temperatureLabel.text = "温度： \(temperature)"
-                    self.windLabel.text = "风力： \(wind)"
+                    println(weatherModel["error"]!)
+                    if (weatherModel["error"] as! Int) == 0
+                    {
+                        let results: NSArray = weatherModel["results"] as! NSArray
+                        self.currentCityLabel.text = (results[0]["currentCity"] as! String)
+                        let weatherData: NSArray = results[0]["weather_data"] as! NSArray
+                        let weather = weatherData[0]["weather"] as! String
+                        let temperature = weatherData[0]["temperature"] as! String
+                        let wind = weatherData[0]["wind"] as! String
+                        self.weatherImageView.image = UIImage(named: weather) == nil ? UIImage(named: "duono"):UIImage(named: weather)
+                        self.weatherLabel.text = "天气： \(weather)"
+                        self.temperatureLabel.text = "温度： \(temperature)"
+                        self.windLabel.text = "风力： \(wind)"
+                    }
+                    else
+                    {
+                        let alertView = UIAlertView(title: "出现错误", message: (weatherModel["status"] as! String), delegate: nil, cancelButtonTitle: "确定")
+                        alertView.show()
+                    }
                 })
             }
         });
